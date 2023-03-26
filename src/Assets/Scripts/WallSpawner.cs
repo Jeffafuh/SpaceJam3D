@@ -34,7 +34,7 @@ public class WallSpawner : MonoBehaviour
         if (timer >= wallSpawnTimer)
         {
             timer = 0;
-            for(int i = 0; i < 3; i++){
+            for(int i = 0; i < 4; i++){
                 int rInt = r.Next(0,6);
                         
                 GameObject temp = Instantiate(WallRef[rInt]);
