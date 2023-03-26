@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: c14d208d1a5f7da41ba2c3de7ea457ef
+  - enabled: 1
+    path: Assets/Scenes/MovingWall.unity
+    guid: d2828dd77d77f004d888ef2ab7ea7291
   m_configObjects: {}
