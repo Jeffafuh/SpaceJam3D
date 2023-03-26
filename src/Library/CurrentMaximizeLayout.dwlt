@@ -21,8 +21,8 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 723
-  m_MinSize: {x: 679, y: 494}
-  m_MaxSize: {x: 14002, y: 14044}
+  m_MinSize: {x: 681, y: 472}
+  m_MaxSize: {x: 14002, y: 14022}
   vertical: 0
   controlID: 103
 --- !u!114 &2
@@ -46,9 +46,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 301
+    x: 341
     y: 20
-    width: 641
+    width: 727
     height: 415
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
@@ -62,8 +62,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -256.4
-    m_HBaseRangeMax: 256.4
+    m_HBaseRangeMin: -290.80002
+    m_HBaseRangeMax: 290.80002
     m_VBaseRangeMin: -159.2
     m_VBaseRangeMax: 159.2
     m_HAllowExceedBaseRangeMin: 1
@@ -83,25 +83,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 641
+      width: 727
       height: 398
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 320.5, y: 199}
+    m_Translation: {x: 363.5, y: 199}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -320.5
+      x: -363.5
       y: -199
-      width: 641
+      width: 727
       height: 398
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 801.25, y: 518.75}
+  m_LastWindowPixelSize: {x: 908.75, y: 518.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -127,8 +127,8 @@ MonoBehaviour:
     y: 0
     width: 1070
     height: 723
-  m_MinSize: {x: 404, y: 494}
-  m_MaxSize: {x: 10002, y: 14044}
+  m_MinSize: {x: 404, y: 472}
+  m_MaxSize: {x: 10000, y: 14022}
   vertical: 1
   controlID: 104
 --- !u!114 &4
@@ -213,7 +213,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f4f5ffff70fbffffe634000002350000
+      m_ExpandedIDs: c2f4fffff4f4ffffe4f5ffffe8f5fffff4f5ffff70fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -301,9 +301,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 9.358749, y: 8.3939705, z: 43.031345}
+    m_Target: {x: 21.724194, y: 4.360755, z: 33.52771}
     speed: 2
-    m_Value: {x: 9.358749, y: 8.3939705, z: 43.031345}
+    m_Value: {x: 21.724194, y: 4.360755, z: 33.52771}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -332,13 +332,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.07025192, y: -0.07325159, z: 0.0051726615, w: 0.9948275}
+    m_Target: {x: -0.007275532, y: 0.99210113, z: -0.10455614, w: -0.06916223}
     speed: 2
-    m_Value: {x: 0.070251584, y: -0.07325124, z: 0.005172637, w: 0.99482274}
+    m_Value: {x: -0.0072754123, y: 0.9920848, z: -0.10455442, w: -0.06916109}
   m_Size:
-    m_Target: 55.01476
+    m_Target: 11.649194
     speed: 2
-    m_Value: 55.01476
+    m_Value: 11.649194
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -454,20 +454,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\jeffr\Documents\GitHub\HOLE\src
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 153}
-    m_SelectedIDs: 1a2d0000
-    m_LastClickedID: 11546
-    m_ExpandedIDs: 00000000162a000000ca9a3b
+    scrollPos: {x: 0, y: 69}
+    m_SelectedIDs: 582d0000
+    m_LastClickedID: 11608
+    m_ExpandedIDs: 00000000682a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -495,7 +495,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000162a0000
+    m_ExpandedIDs: 00000000682a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -522,7 +522,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

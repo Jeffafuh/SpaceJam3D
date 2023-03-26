@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MovingWall.unity
     guid: d2828dd77d77f004d888ef2ab7ea7291
+  - enabled: 1
+    path: Assets/Scenes/Death.unity
+    guid: 0c25dfdc788da334e9c3118307c2f2c3
   m_configObjects: {}

@@ -15,19 +15,20 @@ public class Wall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, transform.position + Vector3.back, speed * Time.deltaTime); 
+        transform.position = Vector3.MoveTowards(transform.position, transform.position + Vector3.forward, speed * Time.deltaTime); 
     }
 
     void OnTriggerEnter(Collider col)
     {
+
         if (col.gameObject == CollisionWall)
         {
             Destroy(gameObject);
         }
-
-        if (col.gameObject == Character)
+        else if (col.gameObject.CompareTag("Player"))
         {
             Debug.Log("IM FUCKING HIT");
+            Debug.Log(col.gameObject);
             Character.GetComponent<Health>().DoDamage();
         }
     }
