@@ -23,12 +23,11 @@ public class Wall : MonoBehaviour
 
         if (col.gameObject == CollisionWall)
         {
+            Character.GetComponent<Health>().addScore();
             Destroy(gameObject);
         }
         else if (col.gameObject.CompareTag("Player"))
         {
-            Debug.Log("IM FUCKING HIT");
-            Debug.Log(col.gameObject);
             Character.GetComponent<Health>().DoDamage();
         }
     }
