@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0B5CE27C-8B06-CCF6-2208-72C2CBE7BA16}</ProjectGuid>
+    <ProjectGuid>{4CFFDA30-0E63-039E-0DCA-DAC117CE2649}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,30 +66,32 @@
      <Compile Include="Assets\Scripts\PuppetAvatar.cs" />
      <Compile Include="Assets\Scripts\SkeletalTrackingProvider.cs" />
      <Compile Include="Assets\Scripts\TrackerHandler.cs" />
+     <Compile Include="Assets\Scripts\Wall.cs" />
+     <Compile Include="Assets\Scripts\WallSpawner.cs" />
      <Compile Include="Assets\Skeleton\CameraFlipper.cs" />
      <Compile Include="Assets\Skeleton\Skeleton.cs" />
      <Compile Include="Assets\Skeleton\SkeletonPosition.cs" />
      <Compile Include="Assets\Skeleton\Smoother.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -275,31 +277,31 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Azure.Kinect.BodyTracking">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Assets/Plugins/Microsoft.Azure.Kinect.BodyTracking.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Assets/Plugins/Microsoft.Azure.Kinect.BodyTracking.dll</HintPath>
  </Reference>
  <Reference Include="Microsoft.Azure.Kinect.Sensor">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Assets/Plugins/Microsoft.Azure.Kinect.Sensor.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Assets/Plugins/Microsoft.Azure.Kinect.Sensor.dll</HintPath>
  </Reference>
  <Reference Include="System.Buffers">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Assets/Plugins/System.Buffers.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Assets/Plugins/System.Buffers.dll</HintPath>
  </Reference>
  <Reference Include="System.Memory">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Assets/Plugins/System.Memory.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Assets/Plugins/System.Memory.dll</HintPath>
  </Reference>
  <Reference Include="System.Reflection.Emit.Lightweight">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Assets/Plugins/System.Reflection.Emit.Lightweight.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Assets/Plugins/System.Reflection.Emit.Lightweight.dll</HintPath>
  </Reference>
  <Reference Include="System.Runtime.CompilerServices.Unsafe">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/Users/chrom/source/Azure-Kinect-Samples/body-tracking-samples/sample_unity_bodytracking/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/Users/chrom/OneDrive/Documents/GitHub/HOLE/src/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
