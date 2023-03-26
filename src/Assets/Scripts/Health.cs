@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
 public class Health : MonoBehaviour
 {
     public int health = 10;
@@ -28,6 +29,10 @@ public class Health : MonoBehaviour
         t.text = "health: " + health;
 
         if(health <= 0) {
+            if (main.m_skeletalTrackingProvider != null)
+            {
+                main.m_skeletalTrackingProvider.Dispose();
+            }
             SceneManager.LoadScene("Death");
         }
     }

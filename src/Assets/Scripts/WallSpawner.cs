@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WallSpawner : MonoBehaviour
 {
@@ -20,6 +21,15 @@ public class WallSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("escape"))
+        {
+            if (main.m_skeletalTrackingProvider != null)
+            {
+                main.m_skeletalTrackingProvider.Dispose();
+            }
+            SceneManager.LoadScene("MainMenu");
+        }
+
         timer += Time.deltaTime;
         if (timer >= wallSpawnTimer)
         {

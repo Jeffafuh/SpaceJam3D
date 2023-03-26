@@ -4,7 +4,7 @@ public class main : MonoBehaviour
 {
     // Handler for SkeletalTracking thread.
     public GameObject m_tracker;
-    private SkeletalTrackingProvider m_skeletalTrackingProvider;
+    public static SkeletalTrackingProvider m_skeletalTrackingProvider;
     public BackgroundData m_lastFrameData = new BackgroundData();
 
     void Start()
