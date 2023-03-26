@@ -1,0 +1,4 @@
+Packages/*
+*.csproj
+src.sln
+Logs/*
