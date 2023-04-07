@@ -1,6 +1,6 @@
 # SpaceJam 3D
 A RowdyHacks 2023 project using Unity 3D and the Microsoft Azure Kinect DX. Jeff, Phuc, and Rafael.
-Developed on Unity 2021.3.12f1. View the Devpost submission [here](https://devpost.com/software/spacejam-3d)
+Developed on Unity 2021.3.12f1. View the Devpost submission [here](https://devpost.com/software/spacejam-3d).
 
 ## Inspiration
 We had access to a Microsoft Azure Kinect DK over the weekend, so we _had_ to use it! In terms of _what_ we were actually going to do with it, we figured it would be a fun idea of have a "reverse" hole-in-the-wall game, where you had to try and dodge objects as opposed to slipping through an opening in the wall.
